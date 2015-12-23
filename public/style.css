@@ -14,7 +14,7 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h4 {
   color:#b5b5b7;
 }
 
@@ -129,16 +129,44 @@ ul {
 
 .more-projects {
   display:flex;
+  justify-content: space-around;
 }
 
 .project {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width:22%;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 1px 10px 5px rgba(103,112,119,1);
+  -moz-box-shadow: 0px 1px 10px 5px rgba(103,112,119,1);
+  box-shadow: 0px 1px 10px 5px rgba(103,112,119,1);
 }
+
+.project img {
+  width:100%;
+  height:28vh;
+}
+
+.project p {
+  margin-top: 0;
+}
+.project-one {
+  margin-left: 1.2em;
+}
+
+.project-four {
+  margin-right: 1.2em;
+}
+
 
 /*---------------------------*/
 /*--------SKILLS ICONS-------*/
 /*---------------------------*/
-
+.skill-icons {
+  border: 1px solid red;
+  padding:2rem;
+  color: white;
+}
 /*---------------------------*/
 /*-----------ABOUT-----------*/
 /*---------------------------*/
