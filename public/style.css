@@ -5,12 +5,22 @@ yellow = #f2b632
 */
 
 
+body {
+  background-color: black;
+}
 
 * {
   box-sizing: border-box;
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color:#b5b5b7;
+}
+
+p {
+  color:#b5b5b7;
+}
 a {
   text-decoration: none;
   color: #677077;
@@ -25,7 +35,10 @@ ul {
   margin: 0;
 }
 
-
+img {
+  width: 50%;
+  height:
+}
 
 /*---------------------------*/
 /*----------HEADER-----------*/
@@ -36,6 +49,14 @@ header {
   color: #677077;
   display: flex;
   justify-content: space-between;
+}
+
+header h1 {
+  color: #677077;
+}
+
+header p {
+  color: #677077;
 }
 
 header a:hover {
@@ -69,6 +90,39 @@ ul {
 /*-----FEATURED PROJECT------*/
 /*---------------------------*/
 
+.featured-project {
+  padding: 2rem;
+  display: flex;
+  height: 75vh;
+
+}
+
+.image-background {
+  display:flex;
+  background: gray;
+  flex: 3 0 75%;
+  justify-content: center;
+}
+
+.main-project-description {
+  flex: 1 0 25%;
+  padding: 15px;
+}
+
+.main-project-description p{
+  border-top: 3px solid #f2b632;
+  padding: 1em;
+}
+
+.main-project-description h5{
+  padding: 0 1 0 1;
+}
+
+.main-project-photo {
+  height:auto;
+  width:100%;
+  padding:2em;
+}
 /*---------------------------*/
 /*-------MORE PROJECTS-------*/
 /*---------------------------*/
