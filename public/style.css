@@ -49,10 +49,15 @@ header {
   color: #677077;
   display: flex;
   justify-content: space-between;
+  height:60px;
 }
 
 header h1 {
   color: #677077;
+  margin:0;
+  font-size: 2em;
+  padding: 10px 0 0 10px;
+
 }
 
 header p {
@@ -60,10 +65,22 @@ header p {
 }
 
 header a:hover {
-  color: black;
+  color: #f2b632;
 }
 
+.nav {
+  padding: 25px 0 0 10px;
+}
 
+.email {
+  padding: 10px 10px 0 0;
+  margin:0;
+}
+
+.phone {
+  padding: 4px 10px 0 0;
+  margin:0;
+}
 /*---------------------------*/
 /*-------HEADER-RIGHT--------*/
 /*---------------------------*/
@@ -71,7 +88,20 @@ header a:hover {
 
 .header-right {
   text-align: right;
+  margin:0;
+  padding:0;
 }
+
+.fa-twitter {
+  font-size: 2rem;
+  padding: 20px 15px 0 15px;
+
+}
+
+.fa-linkedin {
+  font-size: 2rem;
+}
+
 /*---------------------------*/
 /*-------HEADER-LEFT---------*/
 /*---------------------------*/
@@ -79,33 +109,36 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
-.fa {
-  font-size: 2em;
-  padding-left: 0.5em;
+.header-left {
+  padding:0;
+  margin:0;
 }
+
+
 /*---------------------------*/
 /*-----FEATURED PROJECT------*/
 /*---------------------------*/
 
 .featured-project {
+  display: flex;
+  margin-top: 5rem;
   padding: 2rem;
   display: flex;
   height: 75vh;
 
 }
 
-.image-background {
+/*.image-background {
   display:flex;
   background: gray;
   flex: 3 0 75%;
   justify-content: center;
-}
+}*/
 
 .main-project-description {
-  flex: 1 0 25%;
+  flex: 1 0 33%;
   padding: 15px;
 }
 
@@ -122,12 +155,14 @@ ul {
   height:auto;
   width:100%;
   padding:2em;
+  flex: 2 0 66%;
 }
 /*---------------------------*/
 /*-------MORE PROJECTS-------*/
 /*---------------------------*/
 
 .more-projects {
+  margin-top: 5rem;
   display:flex;
   justify-content: space-around;
 }
@@ -164,8 +199,7 @@ ul {
 /*---------------------------*/
 .skill-icons {
 
-  padding:5rem 2rem 5rem 2rem;
-  color: white;
+  padding:10rem 2rem 5rem 2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -188,7 +222,7 @@ width: auto;
 /*-----------ABOUT-----------*/
 /*---------------------------*/
 .about-skills {
-  border:1px solid red;
+
   display: flex;
 }
 
@@ -199,7 +233,7 @@ width: auto;
 }
 
 .about {
-  flex: 3 0 75%;
+  flex: 2 0 66%;
 }
 .about h3 {
   padding: 0 0 0 2rem;
@@ -227,8 +261,7 @@ width: auto;
 /*-----------SKILLS----------*/
 /*---------------------------*/
 .skills {
-  border: 1px solid blue;
-  flex: 1 0 25%;
+  flex: 1 0 33%;
 }
 
 aside h3 {
