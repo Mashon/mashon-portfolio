@@ -192,17 +192,45 @@ width: auto;
   display: flex;
 }
 
+.about-photo-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .about {
-  border: 1px solid green;
+  flex: 3 0 75%;
+}
+.about h3 {
+  padding: 0 0 0 2rem;
+}
+
+.about-text {
+  padding: 2rem;
 }
 
 
+
+.about-photo {
+  width: 45%;
+  height:30vh;
+}
+
+.about-photo.left {
+  padding-left: 2rem;
+}
+
+.about-photo.right {
+  padding-right: 2rem;
+}
 /*---------------------------*/
 /*-----------SKILLS----------*/
 /*---------------------------*/
 .skills {
   border: 1px solid blue;
+  flex: 1 0 25%;
 }
+
 /*---------------------------*/
 /*-----------FOOTER----------*/
 /*---------------------------*/
