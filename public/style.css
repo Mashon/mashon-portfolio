@@ -231,6 +231,20 @@ width: auto;
   flex: 1 0 25%;
 }
 
+aside h3 {
+  padding-left: 2rem;
+}
+
+aside ul {
+  flex-direction: column;
+  color: #b5b5b7;
+  padding-left: 2rem;
+  line-height: 1.5;
+}
+
+aside li {
+  list-style-type: circle;
+}
 /*---------------------------*/
 /*-----------FOOTER----------*/
 /*---------------------------*/
