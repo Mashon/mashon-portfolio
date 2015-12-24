@@ -12,10 +12,12 @@ body {
 * {
   box-sizing: border-box;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h4 {
   color:#b5b5b7;
+  font-family: "Cantata One", serif;
 }
 
 p {
@@ -33,7 +35,11 @@ li {
 ul {
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 
 img {
   width: 50%;
@@ -68,7 +74,7 @@ header a:hover {
   color: #f2b632;
 }
 
-.nav {
+.nav-header {
   padding: 25px 0 0 10px;
 }
 
@@ -92,24 +98,20 @@ header a:hover {
   padding:0;
 }
 
-.fa-twitter {
+.head-twitter {
   font-size: 2rem;
   padding: 20px 15px 0 15px;
 
 }
 
-.fa-linkedin {
+.head-linkedin {
   font-size: 2rem;
+  padding-top: 16px;
 }
 
 /*---------------------------*/
 /*-------HEADER-LEFT---------*/
 /*---------------------------*/
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
 .header-left {
   padding:0;
@@ -286,10 +288,63 @@ footer a:hover {
   color: #f2b632;
 }
 
+footer {
+  color: #677077;
+  display: flex;
+  justify-content: space-between;
+  height:60px;
+  margin:0;
+  padding:0;
+}
+
 /*---------------------------*/
 /*-------FOOTER-RIGHT--------*/
 /*---------------------------*/
+.navigation-footer {
+  border-top: 1px solid #677077;
+}
 
+.footer-right{
+  display:flex;
+}
+.footer-phone-email {
+  text-align: right;
+  padding-right: 15px;
+  margin:0;
+  color: #677077
+}
+.email-footer {
+  padding-top:10px;
+  margin:0;
+  color: #677077
+}
+.phone-footer {
+  padding-top:4px;
+  margin:0;
+  color: #677077
+}
+
+.foot-twitter {
+  font-size: 2rem;
+  padding: 15px 15px 0 15px;
+}
+
+.foot-linkedin {
+  font-size: 2rem;
+  padding-top: 13px;
+}
 /*---------------------------*/
 /*-------FOOTER-LEFT---------*/
 /*---------------------------*/
+
+
+.footer-left {
+  width: 262.469px;
+}
+
+.foot-nav {
+  padding-left: 10px;
+}
+.footer-left ul {
+  padding-top: 20px;
+}
