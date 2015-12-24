@@ -163,18 +163,46 @@ ul {
 /*--------SKILLS ICONS-------*/
 /*---------------------------*/
 .skill-icons {
-  border: 1px solid red;
-  padding:2rem;
+
+  padding:5rem 2rem 5rem 2rem;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
+
+.icon {
+height: 10vh;
+width: auto;
+}
+
+.jquery {
+  height: 14vh;
+  width:auto;
+  margin-top: -1rem;
+}
+
+
+
+
 /*---------------------------*/
 /*-----------ABOUT-----------*/
 /*---------------------------*/
+.about-skills {
+  border:1px solid red;
+  display: flex;
+}
+
+.about {
+  border: 1px solid green;
+}
+
 
 /*---------------------------*/
 /*-----------SKILLS----------*/
 /*---------------------------*/
-
+.skills {
+  border: 1px solid blue;
+}
 /*---------------------------*/
 /*-----------FOOTER----------*/
 /*---------------------------*/
